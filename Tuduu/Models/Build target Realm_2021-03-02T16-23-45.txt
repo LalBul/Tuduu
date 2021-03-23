@@ -1,0 +1,10 @@
+
+Showing Recent Messages
+Unable to read contents of XCFileList '/Target Support Files/Realm/Realm-xcframeworks-output-files.xcfilelist'
+
+Unable to load contents of file list: '/Target Support Files/Realm/Realm-xcframeworks-input-files.xcfilelist'
+
+Unable to load contents of file list: '/Target Support Files/Realm/Realm-xcframeworks-output-files.xcfilelist'
+
+missing module map file: '/Users/vovaserbin/Desktop/Code/Projects/Tuduu/Pods/Target Support Files/Realm/Realm.modulemap
+

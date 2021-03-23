@@ -3,19 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B58AC3ABFC66F65FA06645F /* Pods_TuduuTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADF59E23FAF6720E774C268F /* Pods_TuduuTests.framework */; };
+		4C045A8125E6916B00D3C0ED /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4C045A8025E6916B00D3C0ED /* IQKeyboardManagerSwift */; };
+		4C57C3C325D7354500BDD35F /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C57C3C225D7354500BDD35F /* Task.swift */; };
+		4C6CC0EE25FAB0BD0085C3D1 /* MainTuduu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6CC0ED25FAB0BD0085C3D1 /* MainTuduu.swift */; };
+		4C7E90C825D7235F00809580 /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7E90C725D7235F00809580 /* RegisterController.swift */; };
+		4C7E90CD25D7244E00809580 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7E90CC25D7244E00809580 /* LoginController.swift */; };
+		4C7E90D525D728AA00809580 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4C7E90D425D728A900809580 /* GoogleService-Info.plist */; };
 		4C9B7A6825D31C1900640D41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9B7A6725D31C1900640D41 /* AppDelegate.swift */; };
 		4C9B7A6A25D31C1900640D41 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9B7A6925D31C1900640D41 /* SceneDelegate.swift */; };
-		4C9B7A6C25D31C1900640D41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9B7A6B25D31C1900640D41 /* ViewController.swift */; };
+		4C9B7A6C25D31C1900640D41 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9B7A6B25D31C1900640D41 /* MainScreen.swift */; };
 		4C9B7A6F25D31C1900640D41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C9B7A6D25D31C1900640D41 /* Main.storyboard */; };
 		4C9B7A7225D31C1900640D41 /* Tuduu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4C9B7A7025D31C1900640D41 /* Tuduu.xcdatamodeld */; };
 		4C9B7A7425D31C1A00640D41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C9B7A7325D31C1A00640D41 /* Assets.xcassets */; };
 		4C9B7A7725D31C1A00640D41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C9B7A7525D31C1A00640D41 /* LaunchScreen.storyboard */; };
 		4C9B7A8225D31C1A00640D41 /* TuduuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9B7A8125D31C1A00640D41 /* TuduuTests.swift */; };
 		4C9B7A8D25D31C1A00640D41 /* TuduuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9B7A8C25D31C1A00640D41 /* TuduuUITests.swift */; };
+		4C9B7A9F25D31DC900640D41 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9B7A9E25D31DC900640D41 /* Constants.swift */; };
+		4C9B7AAE25D31F4000640D41 /* ToDoListMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9B7AAC25D31F4000640D41 /* ToDoListMain.swift */; };
+		4C9B7AAF25D31F4000640D41 /* ToDoListMain.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C9B7AAD25D31F4000640D41 /* ToDoListMain.xib */; };
+		4CB215D025EA588A00B127EF /* ViewSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB215CF25EA588A00B127EF /* ViewSettings.swift */; };
+		4CB7B11B25F29EFD00AA4ED2 /* SettingsTaskForSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB7B11A25F29EFD00AA4ED2 /* SettingsTaskForSearch.swift */; };
+		4CF2C84D25EFFE43005DA6A8 /* RealSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF2C84C25EFFE43005DA6A8 /* RealSettings.swift */; };
+		4CF4655325E58B730021907D /* AddSetings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF4655225E58B730021907D /* AddSetings.swift */; };
+		96A34E88E91CAEA047027744 /* Pods_Tuduu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B53B169516E4510F6FD997B /* Pods_Tuduu.framework */; };
+		FA8BF95D509C9BF86B4273A4 /* Pods_Tuduu_TuduuUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 639634AF2599275F8BD4B793 /* Pods_Tuduu_TuduuUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +52,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B53B169516E4510F6FD997B /* Pods_Tuduu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tuduu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C37E28326010112006A66B9 /* Tuduu.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tuduu.entitlements; sourceTree = "<group>"; };
+		4C57C3C225D7354500BDD35F /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		4C6CC0ED25FAB0BD0085C3D1 /* MainTuduu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTuduu.swift; sourceTree = "<group>"; };
+		4C7E90C725D7235F00809580 /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		4C7E90CC25D7244E00809580 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		4C7E90D425D728A900809580 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4C9B7A6425D31C1900640D41 /* Tuduu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tuduu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C9B7A6725D31C1900640D41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C9B7A6925D31C1900640D41 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4C9B7A6B25D31C1900640D41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4C9B7A6B25D31C1900640D41 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
 		4C9B7A6E25D31C1900640D41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4C9B7A7125D31C1900640D41 /* Tuduu.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tuduu.xcdatamodel; sourceTree = "<group>"; };
 		4C9B7A7325D31C1A00640D41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +74,21 @@
 		4C9B7A8825D31C1A00640D41 /* TuduuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TuduuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C9B7A8C25D31C1A00640D41 /* TuduuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuduuUITests.swift; sourceTree = "<group>"; };
 		4C9B7A8E25D31C1A00640D41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C9B7A9E25D31DC900640D41 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4C9B7AAC25D31F4000640D41 /* ToDoListMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListMain.swift; sourceTree = "<group>"; };
+		4C9B7AAD25D31F4000640D41 /* ToDoListMain.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ToDoListMain.xib; sourceTree = "<group>"; };
+		4CB215CF25EA588A00B127EF /* ViewSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSettings.swift; sourceTree = "<group>"; };
+		4CB7B11A25F29EFD00AA4ED2 /* SettingsTaskForSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTaskForSearch.swift; sourceTree = "<group>"; };
+		4CF2C84C25EFFE43005DA6A8 /* RealSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealSettings.swift; sourceTree = "<group>"; };
+		4CF4655225E58B730021907D /* AddSetings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSetings.swift; sourceTree = "<group>"; };
+		639634AF2599275F8BD4B793 /* Pods_Tuduu_TuduuUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tuduu_TuduuUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93F2CA061F6D271995A4834C /* Pods-TuduuTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TuduuTests.release.xcconfig"; path = "Target Support Files/Pods-TuduuTests/Pods-TuduuTests.release.xcconfig"; sourceTree = "<group>"; };
+		ADF59E23FAF6720E774C268F /* Pods_TuduuTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TuduuTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B06DB39BE20730484CFD74E3 /* Pods-Tuduu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tuduu.debug.xcconfig"; path = "Target Support Files/Pods-Tuduu/Pods-Tuduu.debug.xcconfig"; sourceTree = "<group>"; };
+		B2A65407E4CD28C6A5ECC0EF /* Pods-Tuduu-TuduuUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tuduu-TuduuUITests.release.xcconfig"; path = "Target Support Files/Pods-Tuduu-TuduuUITests/Pods-Tuduu-TuduuUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B78CB5025883282FB45FAFF7 /* Pods-TuduuTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TuduuTests.debug.xcconfig"; path = "Target Support Files/Pods-TuduuTests/Pods-TuduuTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BC2B4DE7950BD9B3710525DA /* Pods-Tuduu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tuduu.release.xcconfig"; path = "Target Support Files/Pods-Tuduu/Pods-Tuduu.release.xcconfig"; sourceTree = "<group>"; };
+		BFEC2D4C3A63CAD6072C8D08 /* Pods-Tuduu-TuduuUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tuduu-TuduuUITests.debug.xcconfig"; path = "Target Support Files/Pods-Tuduu-TuduuUITests/Pods-Tuduu-TuduuUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +96,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96A34E88E91CAEA047027744 /* Pods_Tuduu.framework in Frameworks */,
+				4C045A8125E6916B00D3C0ED /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B58AC3ABFC66F65FA06645F /* Pods_TuduuTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA8BF95D509C9BF86B4273A4 /* Pods_Tuduu_TuduuUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +127,8 @@
 				4C9B7A8025D31C1A00640D41 /* TuduuTests */,
 				4C9B7A8B25D31C1A00640D41 /* TuduuUITests */,
 				4C9B7A6525D31C1900640D41 /* Products */,
+				FE96DF94DE6FBEC627F8B71C /* Pods */,
+				6EDFB1401038D967A7EE7D90 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +145,18 @@
 		4C9B7A6625D31C1900640D41 /* Tuduu */ = {
 			isa = PBXGroup;
 			children = (
+				4C37E28326010112006A66B9 /* Tuduu.entitlements */,
 				4C9B7A6725D31C1900640D41 /* AppDelegate.swift */,
 				4C9B7A6925D31C1900640D41 /* SceneDelegate.swift */,
-				4C9B7A6B25D31C1900640D41 /* ViewController.swift */,
-				4C9B7A6D25D31C1900640D41 /* Main.storyboard */,
+				4C9B7AA525D31E2200640D41 /* Models */,
+				4C9B7AA425D31E1D00640D41 /* Views */,
+				4C9B7AA625D31E2900640D41 /* Controllers */,
 				4C9B7A7325D31C1A00640D41 /* Assets.xcassets */,
 				4C9B7A7525D31C1A00640D41 /* LaunchScreen.storyboard */,
 				4C9B7A7825D31C1A00640D41 /* Info.plist */,
 				4C9B7A7025D31C1900640D41 /* Tuduu.xcdatamodeld */,
+				4C7E90D425D728A900809580 /* GoogleService-Info.plist */,
+				4C9B7A9E25D31DC900640D41 /* Constants.swift */,
 			);
 			path = Tuduu;
 			sourceTree = "<group>";
@@ -131,6 +179,70 @@
 			path = TuduuUITests;
 			sourceTree = "<group>";
 		};
+		4C9B7AA425D31E1D00640D41 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4C9B7A6D25D31C1900640D41 /* Main.storyboard */,
+				4C9B7AAC25D31F4000640D41 /* ToDoListMain.swift */,
+				4C9B7AAD25D31F4000640D41 /* ToDoListMain.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4C9B7AA525D31E2200640D41 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4C57C3C225D7354500BDD35F /* Task.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4C9B7AA625D31E2900640D41 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4C9B7A6B25D31C1900640D41 /* MainScreen.swift */,
+				4C7E90C725D7235F00809580 /* RegisterController.swift */,
+				4C7E90CC25D7244E00809580 /* LoginController.swift */,
+				4CF2C84C25EFFE43005DA6A8 /* RealSettings.swift */,
+				4C6CC0ED25FAB0BD0085C3D1 /* MainTuduu.swift */,
+				4C9D061C25EE5EC300FE78E9 /* Settings */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4C9D061C25EE5EC300FE78E9 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				4CF4655225E58B730021907D /* AddSetings.swift */,
+				4CB7B11A25F29EFD00AA4ED2 /* SettingsTaskForSearch.swift */,
+				4CB215CF25EA588A00B127EF /* ViewSettings.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		6EDFB1401038D967A7EE7D90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B53B169516E4510F6FD997B /* Pods_Tuduu.framework */,
+				639634AF2599275F8BD4B793 /* Pods_Tuduu_TuduuUITests.framework */,
+				ADF59E23FAF6720E774C268F /* Pods_TuduuTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE96DF94DE6FBEC627F8B71C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B06DB39BE20730484CFD74E3 /* Pods-Tuduu.debug.xcconfig */,
+				BC2B4DE7950BD9B3710525DA /* Pods-Tuduu.release.xcconfig */,
+				BFEC2D4C3A63CAD6072C8D08 /* Pods-Tuduu-TuduuUITests.debug.xcconfig */,
+				B2A65407E4CD28C6A5ECC0EF /* Pods-Tuduu-TuduuUITests.release.xcconfig */,
+				B78CB5025883282FB45FAFF7 /* Pods-TuduuTests.debug.xcconfig */,
+				93F2CA061F6D271995A4834C /* Pods-TuduuTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,15 +250,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C9B7A9125D31C1A00640D41 /* Build configuration list for PBXNativeTarget "Tuduu" */;
 			buildPhases = (
+				38199DD9BE2108CEBCB1E3F1 /* [CP] Check Pods Manifest.lock */,
 				4C9B7A6025D31C1900640D41 /* Sources */,
 				4C9B7A6125D31C1900640D41 /* Frameworks */,
 				4C9B7A6225D31C1900640D41 /* Resources */,
+				A4FA2679A725D01BE8D552E6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Tuduu;
+			packageProductDependencies = (
+				4C045A8025E6916B00D3C0ED /* IQKeyboardManagerSwift */,
+			);
 			productName = Tuduu;
 			productReference = 4C9B7A6425D31C1900640D41 /* Tuduu.app */;
 			productType = "com.apple.product-type.application";
@@ -155,6 +272,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C9B7A9425D31C1A00640D41 /* Build configuration list for PBXNativeTarget "TuduuTests" */;
 			buildPhases = (
+				F5598B52D2E225FA10DBDBA3 /* [CP] Check Pods Manifest.lock */,
 				4C9B7A7925D31C1A00640D41 /* Sources */,
 				4C9B7A7A25D31C1A00640D41 /* Frameworks */,
 				4C9B7A7B25D31C1A00640D41 /* Resources */,
@@ -173,9 +291,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C9B7A9725D31C1A00640D41 /* Build configuration list for PBXNativeTarget "TuduuUITests" */;
 			buildPhases = (
+				B61558E59BF16D159D5741AC /* [CP] Check Pods Manifest.lock */,
 				4C9B7A8425D31C1A00640D41 /* Sources */,
 				4C9B7A8525D31C1A00640D41 /* Frameworks */,
 				4C9B7A8625D31C1A00640D41 /* Resources */,
+				C24B8FE1A1BDBF2FFAD277F5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -218,6 +338,9 @@
 				Base,
 			);
 			mainGroup = 4C9B7A5B25D31C1900640D41;
+			packageReferences = (
+				4C045A7F25E6916B00D3C0ED /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			productRefGroup = 4C9B7A6525D31C1900640D41 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -234,7 +357,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C9B7AAF25D31F4000640D41 /* ToDoListMain.xib in Resources */,
 				4C9B7A7725D31C1A00640D41 /* LaunchScreen.storyboard in Resources */,
+				4C7E90D525D728AA00809580 /* GoogleService-Info.plist in Resources */,
 				4C9B7A7425D31C1A00640D41 /* Assets.xcassets in Resources */,
 				4C9B7A6F25D31C1900640D41 /* Main.storyboard in Resources */,
 			);
@@ -256,15 +381,128 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		38199DD9BE2108CEBCB1E3F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tuduu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4FA2679A725D01BE8D552E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tuduu/Pods-Tuduu-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tuduu/Pods-Tuduu-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tuduu/Pods-Tuduu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B61558E59BF16D159D5741AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tuduu-TuduuUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C24B8FE1A1BDBF2FFAD277F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tuduu-TuduuUITests/Pods-Tuduu-TuduuUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tuduu-TuduuUITests/Pods-Tuduu-TuduuUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tuduu-TuduuUITests/Pods-Tuduu-TuduuUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5598B52D2E225FA10DBDBA3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TuduuTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4C9B7A6025D31C1900640D41 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C9B7A6C25D31C1900640D41 /* ViewController.swift in Sources */,
+				4CF2C84D25EFFE43005DA6A8 /* RealSettings.swift in Sources */,
+				4C6CC0EE25FAB0BD0085C3D1 /* MainTuduu.swift in Sources */,
+				4C9B7A9F25D31DC900640D41 /* Constants.swift in Sources */,
+				4CB215D025EA588A00B127EF /* ViewSettings.swift in Sources */,
+				4C9B7A6C25D31C1900640D41 /* MainScreen.swift in Sources */,
+				4C57C3C325D7354500BDD35F /* Task.swift in Sources */,
 				4C9B7A7225D31C1900640D41 /* Tuduu.xcdatamodeld in Sources */,
 				4C9B7A6825D31C1900640D41 /* AppDelegate.swift in Sources */,
+				4C7E90CD25D7244E00809580 /* LoginController.swift in Sources */,
+				4C9B7AAE25D31F4000640D41 /* ToDoListMain.swift in Sources */,
+				4CF4655325E58B730021907D /* AddSetings.swift in Sources */,
 				4C9B7A6A25D31C1900640D41 /* SceneDelegate.swift in Sources */,
+				4C7E90C825D7235F00809580 /* RegisterController.swift in Sources */,
+				4CB7B11B25F29EFD00AA4ED2 /* SettingsTaskForSearch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,9 +675,11 @@
 		};
 		4C9B7A9225D31C1A00640D41 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B06DB39BE20730484CFD74E3 /* Pods-Tuduu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Tuduu/Tuduu.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A39ARW5Y9W;
 				INFOPLIST_FILE = Tuduu/Info.plist;
@@ -447,8 +687,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Tuduu.Tuduu;
+				PRODUCT_BUNDLE_IDENTIFIER = VovaSerbin.Tuduu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -456,9 +697,11 @@
 		};
 		4C9B7A9325D31C1A00640D41 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC2B4DE7950BD9B3710525DA /* Pods-Tuduu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Tuduu/Tuduu.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A39ARW5Y9W;
 				INFOPLIST_FILE = Tuduu/Info.plist;
@@ -466,8 +709,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Tuduu.Tuduu;
+				PRODUCT_BUNDLE_IDENTIFIER = VovaSerbin.Tuduu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -475,6 +719,7 @@
 		};
 		4C9B7A9525D31C1A00640D41 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B78CB5025883282FB45FAFF7 /* Pods-TuduuTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -497,6 +742,7 @@
 		};
 		4C9B7A9625D31C1A00640D41 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93F2CA061F6D271995A4834C /* Pods-TuduuTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,6 +765,7 @@
 		};
 		4C9B7A9825D31C1A00640D41 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFEC2D4C3A63CAD6072C8D08 /* Pods-Tuduu-TuduuUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -539,6 +786,7 @@
 		};
 		4C9B7A9925D31C1A00640D41 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2A65407E4CD28C6A5ECC0EF /* Pods-Tuduu-TuduuUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -597,6 +845,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4C045A7F25E6916B00D3C0ED /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4C045A8025E6916B00D3C0ED /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4C045A7F25E6916B00D3C0ED /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		4C9B7A7025D31C1900640D41 /* Tuduu.xcdatamodeld */ = {
